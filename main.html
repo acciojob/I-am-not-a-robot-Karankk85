@@ -9,9 +9,24 @@
   </head>
   <body>
     <main>
-      <!-- solution start -->
+		<h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
       
-      <!-- solution end -->
+      <!-- Image grid -->
+      <div class="flex" id="images">
+        <img id="img1" class="image img1" alt="image1">
+        <img id="img2" class="image img2" alt="image2">
+        <img id="img3" class="image img3" alt="image3">
+        <img id="img4" class="image img4" alt="image4">
+        <img id="img5" class="image img5" alt="image5">
+        <img id="img6" class="image img1" alt="image6"> <!-- Duplicate image -->
+      </div>
+      
+      <!-- Reset and Verify buttons -->
+      <button id="reset" class="hidden">Reset</button>
+      <button id="verify" class="hidden">Verify</button>
+      
+      <!-- Result Message -->
+      <p id="para" class="hidden"></p>
     </main>
     <script src="./script.js"></script>
   </body>
